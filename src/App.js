@@ -37,7 +37,7 @@ function App() {
   }, [loggedIn])
 
   const getUsers = async () => {
-    const USERS_ENDPOINT = 'http://localhost:4000/users'
+    const USERS_ENDPOINT = 'https://boiling-caverns-35260.herokuapp.com/users'
     try {
       const response = await fetch(USERS_ENDPOINT)
       const data = await response.json()
