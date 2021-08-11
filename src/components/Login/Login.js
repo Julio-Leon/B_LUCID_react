@@ -101,7 +101,7 @@ function Login() {
                     <div class="google-icon-wrapper">
                         <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt='google icon' />
                     </div>
-                    <a href="http://localhost:4000/users/google" class="btn-text"><b>Sign in with google</b></a>
+                    <a href="https://boiling-caverns-35260.herokuapp.com/users/google" class="btn-text"><b>Sign in with google</b></a>
                 </div>
                 {/* <a href="http://localhost:4000/users/google"> Google Login </a> */}
                 {/* <button onClick={_handleGoogleLogin}>Google Login</button> */}
