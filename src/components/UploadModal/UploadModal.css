@@ -1,0 +1,70 @@
+.upload-modal-bg {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: none;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.upload-form {
+  flex-direction: column;
+  padding: 20px;
+  height: 600px;
+  width: 500px;
+  background-color: white;
+  position: relative;
+}
+
+.title,
+.description {
+  margin: 15px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.description {
+  height: 310px;
+  resize: none;
+}
+
+.char-limit {
+  margin: 0 15px;
+  text-align: right;
+}
+
+.upload-button {
+  width: 150px;
+  height: 45px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 15px auto;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  transform: rotate(45deg);
+  color: black;
+  cursor: pointer;
+}
+
+.close:hover {
+  transform: rotate(45deg) scale(1.2);
+}
+
+#file {
+  cursor: pointer;
+}

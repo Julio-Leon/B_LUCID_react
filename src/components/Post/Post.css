@@ -1,0 +1,175 @@
+.post {
+  /* border: 4px red solid; */
+  width: 70%;
+  margin: 105px auto;
+  flex-direction: column;
+  background-color: rgb(64, 64, 64);
+  border-radius: 10px;
+  align-items: center;
+}
+
+.post > * {
+  width: 90%;
+}
+
+.file {
+  margin: 5px auto;
+  width: 100%;
+}
+
+.post-description {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgb(34, 48, 60);
+}
+
+.post-title {
+  padding: 15px;
+  text-align: left;
+  font-size: 55px;
+}
+
+.author-likes {
+  justify-content: space-between;
+}
+
+.author-likes * {
+  padding: 10px;
+}
+
+.post-author {
+  text-align: left;
+  margin-left: 25px;
+}
+
+.post-likes {
+  align-items: center;
+}
+
+.name-edit-remove {
+  justify-content: space-between;
+}
+
+.edit-remove button {
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* EDIT FROM STYLES */
+.edit-modal-bg {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: none;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.edit-form {
+  flex-direction: column;
+  padding: 20px;
+  height: 600px;
+  width: 500px;
+  background-color: white;
+  position: relative;
+}
+
+.title,
+.description {
+  margin: 15px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.description {
+  height: 310px;
+  resize: none;
+}
+
+.char-limit {
+  margin: 0 15px;
+  text-align: right;
+}
+
+.upload-button {
+  width: 150px;
+  height: 45px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 15px auto;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  transform: rotate(45deg);
+}
+
+.delete-button,
+.edit-button {
+  border-radius: 10px;
+  height: 60%;
+}
+
+.delete-button {
+  background-color: rgb(200, 0, 0);
+}
+
+.edit-button {
+  background-color: rgba(139, 12, 193, 0.873);
+}
+
+.likes {
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* width: 10%; */
+}
+
+.likes * {
+  font-size: 35px;
+}
+
+.likes:hover {
+  transform: scale(1.2);
+}
+
+.comments {
+  flex-direction: column;
+}
+
+.comments-array {
+  height: 120px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.add-comment {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.add-comment * {
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.input-comment {
+  width: 70%;
+}

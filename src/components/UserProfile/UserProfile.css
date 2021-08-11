@@ -1,0 +1,40 @@
+.user-page {
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.user-page-header {
+  width: 100%;
+  height: 100px;
+  max-height: 100px;
+  justify-content: space-between;
+  background-color: brown;
+}
+
+.user-page-header > * {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.user-posts {
+  width: 60%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.username {
+  font-size: 55px;
+  margin: 10px;
+}
+
+.logout {
+  cursor: pointer;
+}
+
+.logout:hover {
+  transform: scale(1.1);
+}

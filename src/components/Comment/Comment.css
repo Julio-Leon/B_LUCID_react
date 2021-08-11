@@ -1,0 +1,19 @@
+.comment {
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px;
+}
+
+.author-body {
+  font-size: 25px;
+}
+
+.delete {
+  transform: rotate(45deg);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: red;
+}
