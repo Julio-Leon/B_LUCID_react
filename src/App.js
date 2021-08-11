@@ -20,7 +20,7 @@ function App() {
   const [users, setUsers] = useState([])
 
   const getUserInfo = async () => {
-    const USER_ENDPOINT = `https://boiling-caverns-35260.herokuapp.com/${localStorage.getItem('id')}`
+    const USER_ENDPOINT = `https://boiling-caverns-35260.herokuapp.com/users/${localStorage.getItem('id')}`
     try {
         const response = await fetch(USER_ENDPOINT)
         const data = await response.json()
